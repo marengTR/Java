@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 class TCPClient {
- public static void main(String argv[]) throws Exception {
+ public static void main(String args[]) throws Exception {
   
   String serverIP = "137.135.141.116";
   int serverPort = 6666;
@@ -11,7 +11,7 @@ class TCPClient {
   String username;
   //promt input from user
   Scanner inFromUser = new Scanner(System.in);
-  System.out.println("Please enter username: ");
+  System.out.print("Please enter username: ");
   username = inFromUser.next();
   //create a socket 
   Socket clientSocket = new Socket(serverIP, serverPort);
