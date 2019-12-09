@@ -22,7 +22,7 @@ class TCPClient {
   System.out.println("DataOutPut objesi olusturuldu.");
   //send username in Byte
   outToServer.writeUTF(username);
-  System.out.println("username su sekilde:");
+  System.out.println("username gonderildi.");
   // value comes from server assign to N
   //InputStream inFromServer = clientSocket.getInputStream();
   //DataInputStream N = new DataInputStream(inFromServer);
