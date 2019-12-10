@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 class Client {
- public static void main(String args[]) {
+ public static void main(String args[]) throws Exception {
   
   String serverIP = "137.135.141.116";
   int serverPort = 6666;
