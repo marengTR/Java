@@ -2,8 +2,8 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-class TCPClient {
- public static void main(String args[]) throws Exception {
+class Client {
+ public static void main(String args[]);
   
   String serverIP = "137.135.141.116";
   int serverPort = 6666;
@@ -30,5 +30,4 @@ class TCPClient {
   System.out.println("Serverdan okuyacak obje olusturuldu");
   System.out.println("N is " + inFromServer.read()); 
   clientSocket.close();
- }
 }
