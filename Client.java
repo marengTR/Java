@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 class Client {
- public static void main(String args[]);
+ public static void main(String args[]) {
   
   String serverIP = "137.135.141.116";
   int serverPort = 6666;
@@ -30,4 +30,6 @@ class Client {
   System.out.println("Serverdan okuyacak obje olusturuldu");
   System.out.println("N is " + inFromServer.read()); 
   clientSocket.close();
+ 
+ }
 }
